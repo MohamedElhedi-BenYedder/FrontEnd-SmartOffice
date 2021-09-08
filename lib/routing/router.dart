@@ -10,7 +10,7 @@ Route<dynamic> generateRoute(RouteSettings settings){
       return _getPageRoute(OverviewPage());
     case driversPageRoute:
       return _getPageRoute(DriversPage());
-    case clientsPageRoute:
+    case EmployeesPageRoute:
       return _getPageRoute(ClientsPage());
     default:
       return _getPageRoute(OverviewPage());

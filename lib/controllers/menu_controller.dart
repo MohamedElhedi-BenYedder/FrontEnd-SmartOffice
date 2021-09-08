@@ -27,7 +27,7 @@ class MenuController extends GetxController {
         return _customIcon(Icons.trending_up, itemName);
       case driversPageDisplayName:
         return _customIcon(Icons.drive_eta, itemName);
-      case clientsPageDisplayName:
+      case EmployeesPageDisplayName:
         return _customIcon(Icons.people_alt_outlined, itemName);
       case authenticationPageDisplayName:
         return _customIcon(Icons.exit_to_app, itemName);
